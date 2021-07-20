@@ -1,0 +1,29 @@
+// sectionmiddle styles
+#sectionmiddle
+    background-color rgba(60, 139, 0, 0.2)
+    display flex
+    flex-direction column-reverse
+
+    .picture-element
+        width 100%
+        height 60vh
+        background-color black
+        object-fit: cover
+
+    .text-element
+        width 100%
+        height 40vh
+
+
+@media screen and (min-width 724px)
+    #sectionmiddle
+        flex-direction row-reverse
+
+        .text-element
+            height 100vh
+            width 40%
+
+        .picture-element
+            height 100vh
+            width 60%
+            background-color black
