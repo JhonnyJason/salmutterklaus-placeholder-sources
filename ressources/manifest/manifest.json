@@ -1,12 +1,12 @@
 {
-  "name": "Sample Manifest Sample",
-  "short_name": "Sample",
+  "name": "Klaus Salmutter Official",
+  "short_name": "SK",
   "icons": [{
     "src": "img/sample-icon.png",
       "sizes": "64x64",
       "type": "image/png"
     }],
-  "lang": "en-US",
+  "lang": "de-DE",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "white",

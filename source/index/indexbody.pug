@@ -1,5 +1,20 @@
-include ../sectiontopmodule/sectiontop.pug
-.section
-    include ../sectionmiddlemodule/sectionmiddle.pug
-.section
-    include ../sectionbottommodule/sectionbottom.pug
+include ../svgiconsmodule/svgicons.pug
+#background
+#overlay
+    //- h1 Klaus Salmutter
+    a#instagram-link(href="https://www.instagram.com/klaussalmutter/"): svg: use(href="#svg-instagram-icon")
+
+#footer-top
+#footer
+    #footer-left
+        h1 Klaus Salmutter
+        p Obdacher Strasse 117
+        p Bad St. Leonhard im Lavanttal
+        p Österreich
+#footer-bottom 
+    p#copyright-line 
+    //- #footer-right
+    //-     h2 Check out:
+    //-     p: a(href="https://salmutter.shop") Mein Shop
+    //-     p: a(href="https://fritzundhans.at") Friz & Hans
+    //-     P: a(href="https://soundcloud.com/gonzo-renger") Gonzo
